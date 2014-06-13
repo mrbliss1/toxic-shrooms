@@ -1,0 +1,5 @@
+name: BadMushroom
+main: badmushroom.Main
+version: 1.2
+description: Dont pick to many mushrooms they may give you bad side effects!
+

@@ -1,0 +1,10 @@
+name: KsKits
+main: kits.Main
+version: 1.2
+description: A kitpvp Plugin
+commands:
+  kskits:
+    description: All kit commands.
+  kits:
+    description: All kit commands.
+

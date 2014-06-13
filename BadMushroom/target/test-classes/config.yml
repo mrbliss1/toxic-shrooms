@@ -1,0 +1,86 @@
+# Welcome to the McKits official configuration!
+
+# # # # # # # # # # # # # #
+# Item format / armour!   #
+# # # # # # # # # # # # # #
+# ID AMOUNT ENCHANTMENT ENCHANTPOWER
+
+# # # # # # # # # #
+# Potions format! #
+# # # # # # # # # #
+# POTIONID LENGTH POWE
+
+# # # # # # # # # #
+# Armour format!  #
+# # # # # # # # # #
+# ID AMOUNT ENCHANTMENT ENCHANTPOWER
+
+Options:
+  kit-message: "&7Selected the kit &6%KITNAME%&7!"
+  disable-hunger: true
+  disable-fall: true
+  mush-heal: true
+  blazerod-fireball: true
+  stick-lightning: true
+  auto-tnt: true
+  auto-kit: false
+  enabled-worlds:
+  - world
+KitList:
+- PvP
+- Elite
+- Archer
+Kits:
+  pvp:
+    Items:
+    - 276 1 16 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    Potions:
+    - 5 60 1
+    Armour:
+      Helm: 306 1
+      Chest: 307 1
+      Leggs: 308 1
+      Boots: 309 1
+  elite:
+    Items:
+    - 276 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    Potions:
+    Armour:
+      Helm: 306 1
+      Chest: 307 1
+      Leggs: 308 1
+      Boots: 309 1
+  archer:
+    Items:
+    - 261 1 48 5
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 282 1
+    - 262 64
+    Potions:
+    - 1 60 1
+    Armour:
+      Helm: 302 1
+      Chest: 303 1
+      Leggs: 304 1
+      Boots: 305 1 2 4
